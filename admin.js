@@ -10,6 +10,8 @@ client.on("connect", function()
 
 	client.on("reload", function()
 	{
+		// If this was ran in the browser you would
+		// do location.reload()
 		console.log(name, "reload");
 	});
 });
