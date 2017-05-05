@@ -19,5 +19,5 @@ client.on("connect", function()
 client.on("disconnect", function()
 {
 	console.log(name, "disconnected");
-	client.off("bump");
+	client.off("reload");
 });
